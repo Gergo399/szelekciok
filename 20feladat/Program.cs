@@ -10,15 +10,15 @@ namespace _20feladat
     {
         static void Main(string[] args)
         {
-            //Console.Write("Kérek egy számot");
-            //int szam = int.Parse(Console.ReadLine());
-            //if (szam%2==0)
-            //{
-            //    Console.WriteLine("A szám páros.");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("A szám páratlan");
+            Console.Write("Kérek egy számot");
+            int szam = int.Parse(Console.ReadLine());
+            if (szam % 2 == 0)
+            {
+                Console.WriteLine("A szám páros.");
+            }
+            else
+            {
+                Console.WriteLine("A szám páratlan");
             }
         Console.WriteLine(szam%2==0? "páros": "páratlan");
             Console.ReadKey();
